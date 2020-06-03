@@ -1,0 +1,137 @@
+#complete
+{
+	width: 1300px;
+	height: 330px;		/*if there is page is very long then plese change the hight of that page */
+	margin: 00px 00px 00px 100px;
+	background-color:aliceblue;
+}
+#logo
+{
+	width: 27%;
+	height: 200px;
+	border: solid;
+	background-color: red;
+	float: left;
+	margin: 5px;
+}
+#logo img
+{
+	width: 100%;
+	height: 100%;
+}
+#name
+{
+	width: 70%;
+	height: 200px;
+	border: solid;
+	background-color: tan;
+	float: left;
+	margin: 5px;
+	color: navy;
+
+}
+#name h1
+{
+	font-size: 55px;
+	color: navy;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.menu-bar
+{
+	background-color: navy;
+	text-align: center;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.active, .menu-bar ul li:hover
+{
+	background-color: lightgreen;
+	border-radius: 3px;
+}
+.menu-bar .fa
+{
+	margin-right: 8px;
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background-color: gray;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted white;
+	background: transparent;
+	border-radius: 0px;
+	text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: lightgreen;
+}
+.fa-angle-right
+{
+	float: right;
+}
+.sub-menu-2
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background-color: gray;	
+}
+p{font-size: 25px;}
+h2{font-size: 40px;}
+.point{
+	font-size: 25px;
+}
+#copy
+{
+	width: 100%;
+	font-size: 20px;
+	background-color: black;
+	color: white;
+}
